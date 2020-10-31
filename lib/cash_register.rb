@@ -14,10 +14,11 @@ class CashRegister
 
   def add_item(item, price, option = 3)
     if option != 0
-      @total += (price * option)
+      @total += price * option
     else
       @total += price
     end
+    self.total
   end
 
 end
