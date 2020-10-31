@@ -18,7 +18,6 @@ class CashRegister
     else
       @total += price
     end
-    self.total
   end
 
 end
