@@ -15,7 +15,7 @@ class CashRegister
   def add_item(item, price, option = 3)
     if option != 0
       @total += price * option
-    else
+    elsif option == 0
       @total += price
     end
   end
